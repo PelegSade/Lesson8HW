@@ -1,0 +1,19 @@
+body
+    {
+        animation: mymove 5s infinite; /* Apply animation to body */
+        margin: 0; /* Remove default margin */
+        padding: 0;
+    }
+    @keyframes mymove {
+        from {
+            background-color: lightgreen;
+        }
+        to {
+            background-color:  rgb(96, 8, 136);
+        }
+}
+
+button{
+    width: 100px;;
+    height: 20px;
+   border-radius: 5cm; }
